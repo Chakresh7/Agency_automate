@@ -95,12 +95,15 @@ export const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-lg mb-4">Contact</h4>
             <div className="space-y-3 text-sm text-background/60">
-              <p>hello@automate.agency</p>
-              <p>+1 (555) 123-4567</p>
+              <a href="mailto:chakreshkumarvulli@foundersmate.in" className="block hover:text-primary transition-colors">
+                chakreshkumarvulli@foundersmate.in
+              </a>
+              <a href="tel:+918978715162" className="block hover:text-primary transition-colors">
+                +91 8978715162
+              </a>
               <p className="pt-4">
-                123 Business Ave<br />
-                Suite 100<br />
-                New York, NY 10001
+                Vadodara, Gujarat<br />
+                India
               </p>
             </div>
           </div>
